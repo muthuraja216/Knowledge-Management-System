@@ -1,0 +1,108 @@
+.home-banner{
+    display: flex;
+    justify-content: stretch;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+.banner-slogan{
+    border: 2px solid rgb(196, 220, 233);
+    color:rgb(220, 199, 167);
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    padding:30px;
+    padding-top: 70px;
+    margin-top: 180px;
+    margin-left: 120px;
+    animation: slogan 2s 1;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px black;
+}
+.play-link{
+    border: 2px solid rgb(123, 238, 232);
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    background-color: teal;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-shadow: 0px 2px 2px 2px rgb(130, 195, 233);
+}
+.play-link:hover{
+background-color: rgb(190, 236, 247);
+color: teal;
+text-shadow: 2px 2px 3px rgb(108, 240, 240);
+
+}
+.play-container{
+    height: 200px;
+    width: 250px;
+    margin-top: 250px;
+    margin-right: 100px;
+    
+}
+@keyframes slogan{
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateX(2px);
+    }
+}
+.slideshow{
+height: 550px;
+width: 100%;
+display: flex;
+justify-content: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.slide-cards{
+    height: 450px;
+    width: 700px;
+   align-self: center;
+   background-color: rgba(255, 247, 247, 0.1);
+   backdrop-filter: blur(8px);
+   border-radius: 30px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+
+}
+
+.suggestion{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.sugtitle{
+  align-self: center;
+  border: black;
+  color: rgb(10, 56, 164);
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slidealign{
+    background-image: url("./images/slide\ bg.jpg");
+    height: 550px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.slide{
+    height: 400px;
+    width: 270px;
+padding: 50px; 
+margin-left: 80px;}
